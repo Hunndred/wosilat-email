@@ -1,0 +1,61 @@
+* {
+  background-color: #030335;
+}
+
+section {
+  display: flex;
+}
+section img {
+  width: 400px;
+  height: auto;
+  margin: 140px auto;
+  margin-left: -30px;
+}
+section #img_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section form {
+  margin-left: -150px;
+}
+section form input {
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px;
+  opacity: 70%;
+}
+section form #submit_btn {
+  width: 172px;
+  background-color: white;
+  opacity: 70%;
+  color: #030335;
+}
+@media (width >= 40em) {
+  section img {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    margin-left: -30px;
+  }
+  section #img_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section form {
+    margin-left: -150px;
+  }
+  section form input {
+    background-color: white;
+    border: 1px solid black;
+    padding: 4px;
+    opacity: 70%;
+  }
+  section form #submit_btn {
+    width: 172px;
+    background-color: white;
+    opacity: 70%;
+    color: white;
+  }
+}/*# sourceMappingURL=styles.css.map */
